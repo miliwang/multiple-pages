@@ -1,14 +1,14 @@
 <!--
  * @Author: mili
- * @Date: 2019-11-27 18:35:29
- * @LastEditTime: 2019-11-27 19:28:46
+ * @Date: 2019-11-27 18:35:36
+ * @LastEditTime: 2019-11-28 11:16:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /source_code/src/views/app/index.vue
+ * @FilePath: /source_code/src/views/m/index.vue
  -->
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../../assets/logo.png">
+    <img alt="Vue logo" src="../../../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -18,7 +18,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "app",
+  name: "M",
   components: {
     HelloWorld
   }
