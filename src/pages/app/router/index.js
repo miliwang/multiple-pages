@@ -1,22 +1,22 @@
 /*
  * @Author: mili
  * @Date: 2019-11-26 16:09:30
- * @LastEditTime: 2019-11-28 11:15:19
+ * @LastEditTime: 2019-11-28 18:02:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /source_code/src/router/index.js
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
-import app from "../views/index.vue";
+import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "/app",
     name: "app",
-    component: app
+    component: Home
   }
 ];
 
